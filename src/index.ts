@@ -1,1 +1,3 @@
-console.log("Hello world");
+import { getEncodingMode } from "./check-mode";
+
+const encodingMode = getEncodingMode("cáfe");
